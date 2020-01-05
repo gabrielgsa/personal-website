@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Roboto|Montserrat|Open+Sans|Amatic+SC|Sacramento&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+h1, h2, h3 {
+    font-size: 2rem;
+    color: #1f2463;
+    font-family: "Roboto", sans-serif;
+}
+
+h3 {    
+    color: #488efb;
+    font-size: 1.3rem;
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.9;
+    font-size: 1rem;
+    color: #34413e;
+}
+
+.top-container {
+    background-color: #c1d8ec;
+    padding-top: 100px;
+}
+
+.top-container img.top-cloud {
+    position: absolute;
+    top: 70px;
+    right: 25%;
+
+}
+
+.top-container h1 {
+    text-align: center;
+    font-size: 5rem;
+    margin-bottom: 0;
+    font-family: "Sacramento", cursive;
+}
+
+.top-container h2 {
+    text-align: center;
+    font-size: 1.4rem;
+    margin-top: 10px;
+}
+
+.top-container img.bottom-cloud {
+    position: absolute;
+    left: 25%;
+}
+
+.top-container img.mountain {
+    display: block;
+    margin: auto;
+    max-width: 300px;
+    min-width: 150px;
+}
+
+.about-container {
+    padding-top: 60px;
+    text-align: center;
+}
+
+.about-container p {
+    width: 35%;
+    margin: 40px auto;
+}
+
+.about-container img {
+    border-radius: 50%;
+}
+
+hr {
+    border: 6px dotted #d9d8d9;
+    border-bottom: none;
+    width: 3%;
+    margin: 30px auto;
+}
+
+.skills-container {
+    width: 50%;
+    margin: 20px auto;
+}
+
+.skills-container h2 {
+    text-align: center;
+    margin: 60px auto 70px auto;
+}
+
+.skill-row {
+    margin-bottom: 70px;
+}
+
+.skill-row img.web {
+    width: 17%;
+    float: left;
+    margin-right: 20px;
+}
+
+.skill-row img.software {
+    width: 15%;
+    float: right;
+    margin-left: 20px;
+}
+
+.skill-row img.mobile {
+    width: 17%; 
+    float: left;
+    margin-right: 30px;
+}
+
+.bottom-container {
+    text-align: center;
+}
+
+.bottom-container > p {
+    width: 40%;
+    margin: auto auto;
+}
+
+.contact-btn {
+    width: 170px;
+    height: 50px;
+    border: none;
+    border-radius: 4px;
+    background-color: #488efb;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #fff;
+    padding: 10px;
+    margin: 40px auto 70px auto;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.contact-btn a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.contact-btn:hover {
+    background-color: #2e69c7;
+}
+
+footer {
+    background-color: #c1d8ec;
+}
+
+.socials {
+    height: 50px;
+    width: 50px;
+    margin: 60px 10px 20px auto;
+    cursor: pointer;
+}
+
+.socials.github {
+    width: 60px;
+}
+
+.copyright {
+    font-weight: bold;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    background-color: #c1d8ec;
+}
+
