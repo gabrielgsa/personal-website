@@ -38,9 +38,9 @@ p {
 
 .top-container h1 {
     text-align: center;
-    font-size: 5rem;
+    font-size: 4.5rem;
     margin-bottom: 0;
-    font-family: "Sacramento", cursive;
+    font-family: "Montserrat", sans-serif;
 }
 
 .top-container h2 {
@@ -69,6 +69,7 @@ p {
 .about-container p {
     width: 35%;
     margin: 40px auto;
+    font-size: 1.2rem;
 }
 
 .about-container img {
@@ -121,6 +122,10 @@ hr {
 .bottom-container > p {
     width: 40%;
     margin: auto auto;
+}
+
+.information-container {
+    padding: 0 15%;
 }
 
 .contact-btn {
