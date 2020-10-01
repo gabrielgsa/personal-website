@@ -60,7 +60,9 @@ p {
     max-width: 300px;
     min-width: 150px;
 }
-
+.top-container:hover{
+            color:gray;
+        }
 .about-container {
     padding-top: 60px;
     text-align: center;
